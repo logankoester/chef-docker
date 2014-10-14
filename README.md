@@ -14,7 +14,6 @@ This cookbook was inspired by @thoward's docker-cookbook: https://github.com/tho
 
 ### Platforms
 
-* Arch Linux
 * Amazon 2014.03.1 (experimental)
 * CentOS 6
 * Debian 7
@@ -213,7 +212,6 @@ registry_cmd_timeout | registry LWRP default cmd_timeout seconds | Fixnum | 60
 * `recipe[docker::systemd]` Installs/Starts Docker via systemd
 * `recipe[docker::sysv]` Installs/Starts Docker via SysV
 * `recipe[docker::upstart]` Installs/Starts Docker via Upstart
-* `recipe[docker::fig]` Installs [Fig](http://www.fig.sh/)
 
 ## LWRPs
 
