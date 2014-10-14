@@ -7,7 +7,7 @@ include_recipe 'pacman'
 case node['platform']
 when 'arch'
   pacman_aur 'fig-git' do
-    action [:build, :create]
+    action [:build, :install]
   end
 else
   fail "The fig recipe does not yet contain installation instructions for `#{node['platform']}. \
